@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rounded_all">
+
+        <TextView
+            android:id="@+id/txtTitleFirstRun"
+            style="@style/CoinBitText.Body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtTitleFirstRun">
+
+            <TextView
+                style="@style/CoinBitText.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello!" />
+
+            <TextView
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome!" />
+
+            <TextView
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can see Digital Currency as online." />
+
+            <TextView
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can read online-news, too!" />
+
+            <TextView
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This app developed by Mohammad Reza Fekri." />
+
+            <TextView
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This app is one of the educational apps of Dunijet." />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtContact"
+            style="@style/CoinBitText.Body3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear1" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtContact">
+
+
+
+
+            <TextView
+                android:id="@+id/txt2"
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dunijet"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt4"
+                style="@style/CoinBitText.CaptionAlternate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="dunijet.ir"
+                app:layout_constraintStart_toStartOf="@+id/txt2"
+                app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+            <TextView
+                android:id="@+id/txt1"
+                style="@style/CoinBitText.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Mohammad Reza Fekri"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt4" />
+
+            <TextView
+                android:id="@+id/txt3"
+                style="@style/CoinBitText.CaptionAlternate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-mail: fekri.mohammadreza86"
+                app:layout_constraintStart_toStartOf="@+id/txt1"
+                app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
