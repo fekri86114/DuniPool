@@ -1,10 +1,10 @@
-# DuniPool
+# 💲 DuniPool
 A simple application to know Diagital Currency as online.
 
-# Used
+# 📚 Used
 Android View, Kotlin-Parcelize, Retrofit2, RecyclerView, Spark-Chart, Sipe-Refresh, Glide, ...
 
-# Dependency
+# 📑 Dependency
 Add below codes to `build.gradle(:app)`:
 
   in `plugins` part:
@@ -38,7 +38,7 @@ Add below codes to `build.gradle(:app)`:
      implementation 'com.github.bumptech.glide:glide:4.13.2'
      annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
      
-# View :-)
+# ✨ View :-)
 
 ![Uploading img_show1.jpg…]()
 ![Uploading img_show2.jpg…]()
