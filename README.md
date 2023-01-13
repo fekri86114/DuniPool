@@ -38,6 +38,9 @@ Add below codes to `build.gradle(:app)`:
      implementation 'com.github.bumptech.glide:glide:4.13.2'
      annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
      
+# 📝 Usesage
+to update, check, make change you can go to `master` branch
+     
 # ✨ View :-)
 
 ![Uploading img_show1.jpg…]()
